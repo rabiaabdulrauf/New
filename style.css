@@ -1,0 +1,30 @@
+header{
+    background-color: aliceblue;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 60px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    margin: 0 10px;
+}
+.nav-links li:hover{
+    color: aqua;
+    border-bottom: 1px solid black;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
